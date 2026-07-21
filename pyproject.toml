@@ -5,10 +5,12 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "dotenv>=0.9.9",
     "gitsource>=0.0.5",
     "minsearch>=0.2.0",
     "numpy>=2.5.1",
     "onnxruntime>=1.27.0",
+    "openai>=2.46.0",
     "tokenizers>=0.23.1",
     "tqdm>=4.69.0",
 ]
